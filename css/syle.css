@@ -151,7 +151,10 @@ input {
 
 
 .row {
-    width: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: ( 100% / 3 - 20px;);
+    width: 300px;
     border: 2px solid lightgrey;
     min-height: 300px;
     margin-top: 35px;
@@ -160,7 +163,7 @@ input {
 .plan-name {
     border-bottom: 2px solid lightgrey;
     text-align: center;
-    padding: 10px 0;
+    padding: 0;
 }
 
 h3 {
@@ -210,7 +213,7 @@ h3 {
 }
 
 .card-hr {
-    margin-top: 1px solid lightgrey;
+    border: 1px solid lightgrey;
     width: 45px
 }
 

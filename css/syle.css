@@ -17,8 +17,14 @@ a {
     color: black;
 }
 
+main {
+    padding-top: 50px;
+}
+
+/* Utilities */
+
 .margin {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .buttomnlookalike {
@@ -27,9 +33,10 @@ a {
     color: white;
 }
 
-main {
-    padding-top: 50px;
+.grey {
+    color: grey;
 }
+
 
 /* Header */
 
@@ -95,7 +102,7 @@ span a {
     color: white;
 }
 
-.fa-solid {
+.fa-arrow-down {
     font-size: 35px;
 }
 
@@ -105,11 +112,117 @@ span a {
 
 .container-jumbo-footer img {
     width: 700px;
-
 }
 
 #jumbo-img {
     position: absolute;
     right: 20px;
     top: 285px;
+}
+
+/* Smaller container*/
+
+.margin {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* Plans section */
+
+.container-main-content {
+    width: 990px;
+    margin: 0 auto;
+}
+.plan-section h2 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+label {
+    margin-right: 35px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+/* Plans flex*/
+
+
+.row {
+    width: 320px;
+    border: 2px solid lightgrey;
+    min-height: 300px;
+    margin-top: 35px;
+}
+
+.plan-name {
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.card-padding {
+    padding: 7px;
+}
+
+.duration {
+    margin-bottom: 35px;
+}
+
+.plan-container {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+.n-user , .premium , .n-space {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.n-user i , .premium i , .n-space i {
+    margin-right: 10px;
+}
+
+#decorated-a {
+    text-decoration: underline;
+    color:rgb(0, 97, 255)
+}
+
+.card-middle {
+    margin-top: 20px;
+}
+
+.buy-now {
+    margin: 30px 0;
+}
+
+.card-hr {
+    margin-top: 1px solid lightgrey;
+    width: 45px
+}
+
+h4 {
+    margin: 30px 0;
+}
+
+.fa-check {
+    color: rgb(0, 97, 255);
+    margin-right: 5px;
+}
+
+.list-item {
+    display: flex;
 }

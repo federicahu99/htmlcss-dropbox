@@ -21,6 +21,10 @@ main {
     padding-top: 50px;
 }
 
+i {
+    margin-right: 10px;
+}
+
 /* Utilities */
 
 .margin {
@@ -149,21 +153,22 @@ input {
 
 /* Plans flex*/
 
-
 .row {
     display: flex;
-    flex-direction: row;
-    flex-basis: ( 100% / 3 - 20px;);
-    width: 300px;
-    border: 2px solid lightgrey;
-    min-height: 300px;
-    margin-top: 35px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.col3 {
+    width: calc( 100% / 3 - 20px);
+    margin: 20px 10px;
+
 }
 
 .plan-name {
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
-    padding: 0;
+    padding: 10px 0;
 }
 
 h3 {
@@ -171,7 +176,7 @@ h3 {
 }
 
 .card-padding {
-    padding: 7px;
+    border: 1px solid lightgrey;
 }
 
 .duration {
@@ -183,7 +188,7 @@ h3 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 15px;
+    padding: 25px;
 }
 
 .price {
@@ -192,12 +197,9 @@ h3 {
 
 .n-user , .premium , .n-space {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.n-user i , .premium i , .n-space i {
-    margin-right: 10px;
-}
 
 #decorated-a {
     text-decoration: underline;
@@ -228,4 +230,36 @@ h4 {
 
 .list-item {
     display: flex;
+}
+
+/* Ufficio vendite */
+
+#sales-division {
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-top: 30px;
+}
+
+#sales-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+#sales-body  {
+    padding: 25px;
+    position: relative;
+}
+
+#sales-body p {
+    display: inline-block;
+    width: 60%;
+}
+
+#sales-body a {
+    position: absolute;
+    right: 80px;
+    top: 25px;
 }

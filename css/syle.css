@@ -75,7 +75,7 @@ header img {
     align-items: center;
 }
 
-li{
+ header li{
     margin: 5px 15px;
 }
 
@@ -292,16 +292,7 @@ h4 {
     top: 230px;
 }
 
-/* Business Section, reminder: 
-
-.row {
-    display: flex;
-    width: 100%;
-    gap: 35px;}
-
-.col3 {
-    width: calc( 100% / 3 );}
-*/ 
+/* Business Section */ 
 
 #business-section h2{
     font-size: 40px;
@@ -489,17 +480,20 @@ cite {
     margin: 30px 0;
 }
 
+
+/* Free trial */
+
 .flex-lightblue {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
 }
 
 #lightblue-bc {
     background-color: rgb(180, 208, 231);
-    min-height: 150px;
+    min-height: 270px;
     margin-bottom: 100px;
+    display: flex;
 }
 
 #lightblue-bc h2 {
@@ -544,4 +538,29 @@ cite {
     background-color: black;
     color: white;
     min-height: 350px;
+}
+
+.footer-col {
+    display: flex;
+    flex-basis: calc( 100% / 5 );
+    margin: 35px 0;
+}
+
+footer h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer hr {
+    border: 1px solid white;
+    width: 90px;
+    margin-bottom: 20px;
+} 
+
+#lang {
+    color: lightgrey
 }

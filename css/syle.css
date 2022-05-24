@@ -82,7 +82,7 @@ li{
 /* Jumbotron */
 
 .container-jumbo-footer{
-    width: 1250px;
+    width: 1150px;
     margin: 0 auto;
     position: relative;
 }
@@ -126,7 +126,7 @@ span a {
 
 #jumbo-img {
     position: absolute;
-    right: 120px;
+    right: 50px;
     top: 275px;
 }
 
@@ -343,43 +343,129 @@ h4 {
     width: calc( 100% / 6 );
 }
 
-.img {
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 257px;
-    height: 225px;
-    background-size: 180px;
-}
-
-.img .first {
+.img-1 {
     background-image: url(../img/designit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 234px;
+    height: 225px;
+    background-size: 150px;
+    background-color:lightblue;
+    border: 5px solid yellow;
 }
 
-.img .second {
+.img-2 {
     background-image: url(../img/university_of_florida.svg);
-    width: 257px;
+    width: 234px;
     height: 225px;
     background-size: 180px;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: lightgreen;
 }
 
 .img-3 {
     background-image: url(../img/arizona_state_university.svg);
-    width: 257px;
+    width: 234px;
     height: 225px;
     background-size: 180px;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: lightpink;
+    
 }
 
 .img-4 {
     background-image: url(../img/topps.svg);
-    width: 257px;
+    width: 234px;
     height: 225px;
     background-size: 180px;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: lightcoral;
 }
 
 
+.img-5 {
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 234px;
+    height: 225px;
+    background-size: 150px;
+    background-color:lightblue;
+}
+
+.img-6 {
+    background-image: url(../img/lonely_planet.svg);
+    width: 234px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightgreen;
+}
+
+.img-7 {
+    background-image: url(../img/hearst_corp.svg);
+    width: 234px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightpink;
+    
+}
+
+.img-8 {
+    background-image: url(../img/clear_channel.svg);
+    width: 234px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightcoral;
+}
+
+/* Biggest col */
+.big {
+    flex-grow: 1;
+    min-height: 450px;
+    padding: 25px;
+    background-color: rgb(245, 245, 245);
+}
+
+.big img {
+    width: 250px;
+    margin-top: 20px;;
+}
+
+#designit-hr {
+    margin: 50px 0;
+    width: 75px;
+    border-color: rgb(209, 209, 211);
+}
+
+cite {
+    font-style: normal;
+    margin: 30px 0;
+}
+
+#lightblue-bc {
+    background-color: rgb(180, 208, 231);
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lightblue-bc h2 {
+    font-size: 25px;
+    color: rgb(96, 3, 36);
+    margin-right: 65px;
+}
+
+#free-trial {
+    background-color: white;
+    padding: 8px 35px;
+}

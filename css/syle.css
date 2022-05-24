@@ -305,6 +305,7 @@ h4 {
 
 #business-section h2{
     font-size: 40px;
+    margin-bottom: 40px
 }
 
 #business-section h3{
@@ -315,12 +316,14 @@ h4 {
     width: 320px;
 }
 
-.row p {
+ #business-section .row p {
     margin-bottom: 40px;
 }
 
 #latest-business h2 {
-    margin: 50px 0;
+    margin: 70px 0;
+    display: block;
+    width: 600px;
 }
 
 #latest-business {
@@ -328,6 +331,55 @@ h4 {
 }
 
 
+/* Designit (8 card section) */
 
+.new-row {
+    display: flex;
+    width: 100%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: calc( 100% / 6 );
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 257px;
+    height: 225px;
+    background-size: 180px;
+}
+
+.img .first {
+    background-image: url(../img/designit.svg);
+}
+
+.img .second {
+    background-image: url(../img/university_of_florida.svg);
+    width: 257px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url(../img/arizona_state_university.svg);
+    width: 257px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url(../img/topps.svg);
+    width: 257px;
+    height: 225px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 

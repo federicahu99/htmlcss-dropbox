@@ -555,6 +555,10 @@ footer li {
     margin: 10px 0;
 }
 
+footer li a{
+    color: white;
+}
+
 footer hr {
     border: 1px solid white;
     width: 90px;

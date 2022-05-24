@@ -25,7 +25,7 @@ i {
     margin-right: 10px;
 }
 
-/* Utilities */
+/* Utily */
 
 .margin {
     margin-top: 10px;
@@ -39,6 +39,11 @@ i {
 
 .grey {
     color: grey;
+}
+
+.decorated-a {
+    text-decoration: underline;
+    color:rgb(0, 97, 255)
 }
 
 
@@ -77,7 +82,7 @@ li{
 /* Jumbotron */
 
 .container-jumbo-footer{
-    width: 1050px;
+    width: 1250px;
     margin: 0 auto;
     position: relative;
 }
@@ -85,6 +90,7 @@ li{
 .container-jumbotron {
     height: 600px;
     background-color: rgb(180, 208, 231);
+    margin-bottom: 230px;
 }
 
 #jumbo-title {
@@ -98,8 +104,8 @@ li{
 }
 
 .buttomnlookalike .jumbo {
-display: inline-block;
-   margin: 50px 50px;
+    display: inline-block;
+    margin: 50px 50px;
 }
 
 span a {
@@ -115,32 +121,29 @@ span a {
 }
 
 .container-jumbo-footer img {
-    width: 700px;
+    width: 800px;
 }
 
 #jumbo-img {
     position: absolute;
-    right: 20px;
-    top: 285px;
+    right: 120px;
+    top: 275px;
 }
 
-/* Smaller container*/
-
-.margin {
-    width: 950px;
-    margin: 0 auto;
-}
 
 /* Plans section */
 
 .container-main-content {
-    width: 990px;
+    width: 1050px;
     margin: 0 auto;
 }
 .plan-section h2 {
-    margin-top: 150px;
     margin-bottom: 50px;
     font-size: 35px;
+}
+
+.plan-section {
+    margin-bottom: 50px;
 }
 
 label {
@@ -156,11 +159,11 @@ input {
 .row {
     display: flex;
     width: 100%;
+    gap: 35px;
 }
 
 .col3 {
     width: calc( 100% / 3 );
-    margin: 45px 20px 65px 5px;
 }
 
 .plan-name {
@@ -173,8 +176,9 @@ h3 {
     font-size: 22px;
 }
 
-.card-padding {
+.card-container {
     border: 1px solid lightgrey;
+    margin-bottom: 80px;
 }
 
 .duration {
@@ -198,11 +202,6 @@ h3 {
     margin-bottom: 30px;
 }
 
-
-#decorated-a {
-    text-decoration: underline;
-    color:rgb(0, 97, 255)
-}
 
 .card-middle {
     margin-bottom: 20px;
@@ -267,6 +266,7 @@ h4 {
 #find-a-partner {
     width: 100%; 
     display: flex;
+    margin-bottom: 150px
 }
 
 #partner-img img{
@@ -291,3 +291,43 @@ h4 {
     left: 0px;
     top: 230px;
 }
+
+/* Business Section, reminder: 
+
+.row {
+    display: flex;
+    width: 100%;
+    gap: 35px;}
+
+.col3 {
+    width: calc( 100% / 3 );}
+*/ 
+
+#business-section h2{
+    font-size: 40px;
+}
+
+#business-section h3{
+    margin-bottom: 25px;
+}
+
+.business-img img {
+    width: 320px;
+}
+
+.row p {
+    margin-bottom: 40px;
+}
+
+#latest-business h2 {
+    margin: 50px 0;
+}
+
+#latest-business {
+    margin-bottom:150px;
+}
+
+
+
+
+

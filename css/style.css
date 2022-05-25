@@ -90,8 +90,7 @@ header img {
 .flex-container #plans-price:hover,
 .flex-container #support:hover,
 .flex-container #contact:hover,
-.flex-container #signin:hover
-{
+.flex-container #signin:hover {
     padding: 15px 0;
     border-bottom: 2px solid black ;
 }

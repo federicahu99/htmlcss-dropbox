@@ -72,11 +72,24 @@ header img {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
  header li{
     margin: 5px 15px;
+    min-height: 20px;
+}
+
+/* Bonus */
+
+.flex-container #why-drop:hover , 
+.flex-container #functions:hover,
+.flex-container #plans-price:hover,
+.flex-container #support:hover,
+.flex-container #contact:hover,
+.flex-container #signin:hover
+{
+    padding: 15px 0;
+    border-bottom: 2px solid black ;
 }
 
 /* Jumbotron */
@@ -163,7 +176,7 @@ input {
 }
 
 .col3 {
-    width: calc( 100% / 3 );
+    width: calc( 100% / 3 - 35px );
 }
 
 .plan-name {
@@ -178,6 +191,7 @@ h3 {
 
 .card-container {
     border: 1px solid lightgrey;
+    min-height: 850px;
     margin-bottom: 80px;
 }
 
@@ -190,11 +204,16 @@ h3 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 25px;
+    padding: 30px;
+}
+
+.plan-first-part {
+    min-height: 340px;
 }
 
 .price {
     margin: 20px 0;
+    font-weight: bold;
 }
 
 .n-user , .premium , .n-space {
@@ -212,8 +231,8 @@ h3 {
 }
 
 .card-hr {
-    border: 1px solid lightgrey;
-    width: 45px
+    border-top: 2px solid lightgrey;
+    width: 45px;
 }
 
 h4 {
@@ -227,6 +246,11 @@ h4 {
 
 .list-item {
     display: flex;
+    margin: 15px 0;
+}
+
+.card-middle > .buttonlookalike {
+    min-width: 120px;
 }
 
 /* Ufficio vendite */
@@ -324,7 +348,7 @@ h4 {
 
 /* Designit (8 card section) */
 
-.new-row {
+.designit-container {
     display: flex;
     width: 100%;
 }
@@ -455,6 +479,86 @@ h4 {
     filter: invert(100%);
     padding: 0 30px;
 }
+
+/* Bonus */
+
+
+.img-1:hover img{
+    height: 45px;
+}
+
+.img-1:hover {
+    border: 10px solid red;
+}
+
+
+.img-2:hover img{
+    height: 28px;
+}
+
+.img-2:hover {
+    border: 10px solid rgb(97, 8, 43);
+}
+
+
+.img-3:hover img{
+    height: 56px;
+}
+
+.img-3:hover {
+    border: 10px solid rgb(0, 147, 206);
+}
+
+
+.img-4:hover img{
+    height: 43px;
+}
+
+.img-4:hover {
+    border: 10px solid rgb(162, 211, 155);
+}
+
+
+
+.img-5:hover img{
+    height: 42px;
+}
+
+.img-5:hover {
+    border: 10px solid rgb(255, 216, 48);
+}
+
+
+
+.img-6:hover img{
+    height: 48px;
+}
+
+.img-6:hover {
+    border: 10px solid rgb(180, 208, 231);
+}
+
+
+
+.img-7:hover img{
+    height: 13px;
+}
+
+.img-7:hover {
+    border: 10px solid rgb(13, 36, 129);
+}
+
+
+
+.img-8:hover img{
+    height: 48px;
+}
+
+.img-8:hover {
+    border: 10px solid rgb(213, 0, 31);
+}
+
+
 
 /* Biggest col */
 .big {

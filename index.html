@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css' integrity='sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==' crossorigin='anonymous'/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/syle.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/logo.png">
     <title>Dropbox</title>
 </head>
@@ -18,16 +18,16 @@
         <nav class="flex-container">
             <img src="img/logo-small.png" alt="Dropbox logo">
             <ul class="flex-container small">
-                <li><a href="#">Perché Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e Prezzi</a></li>
+                <li><a href="#" id="why-drop">Perché Dropbox</a></li>
+                <li><a href="#" id="functions">Funzioni</a></li>
+                <li><a href="#" id="plans-price">Piani e Prezzi</a></li>
             </ul>
         </nav>
         <nav class="flex-container">
             <ul class="flex-container small">
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
+                <li><a href="#" id="support">Supporto</a></li>
+                <li><a href="#" id="contact">Contatta l'ufficio vendite</a></li>
+                <li><a href="#" id="signin">Accedi</a></li>
                 <li><a href="#" class="buttomnlookalike">Inizia</a></li>
             </ul>
         </nav>
@@ -65,34 +65,36 @@
                         <p><i class="fa-solid fa-user"></i> Singolo</p>
                     </div>
                     <div class="plan-container">
-                        <div>
-                            <h3>Professional</h3>
+                        <div class="plan-first-part">
+                            <div>
+                                <h3>Professional</h3>
+                            </div>
+                            <div class="price">
+                                <p>€ 12,00</p>
+                            </div>
+                            <div class="duration grey">
+                                <p>/mese</p>
+                            </div>
+                            <div class="n-user">
+                                <i class="fa-solid fa-user"></i>
+                                <p>1 utente</p>
+                            </div>
+                            <div class="n-space">
+                                <i class="fa-solid fa-folder"></i>
+                                <p>5 Tb di spazio di archiviazione sicuro</p>
+                            </div>
+                                <div class="premium">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p>4 Funzioni di produttività premium e condivizione file semplice e sicura</p>
+                            </div>
                         </div>
-                        <div class="price">
-                            <p>€ 12,00</p>
-                        </div>
-                        <div class="duration grey">
-                            <p>/mese</p>
-                        </div>
-                        <div class="n-user">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1 utente</p>
-                        </div>
-                        <div class="n-space">
-                            <i class="fa-solid fa-folder"></i>
-                            <p>5 Tb di spazio di archiviazione sicuro</p>
-                        </div>
-                            <div class="premium">
-                            <i class="fa-solid fa-share-nodes"></i>
-                            <p>4 Funzioni di produttività premium e condivizione file semplice e sicura</p>
-                        </div>
-    <!--Seconda metà carta-->
-                        <div class="card-middle">
-                            <a href="#" class="buttomnlookalike">Prova gratis per 30 giorni</a>
-                        </div>
-                        <div class="buy-now">
-                            <p>oppure <a href="#" class="decorated-a"> acquista ora</a></p>
-                        </div>
+        <!--Seconda metà carta-->
+                            <div class="card-middle">
+                                <a href="#" class="buttomnlookalike">Prova gratis per 30 giorni</a>
+                            </div>
+                            <div class="buy-now">
+                                <p>oppure <a href="#" class="decorated-a"> acquista ora</a></p>
+                            </div>
 
                         <hr class="card-hr">
 
@@ -115,29 +117,32 @@
             <div class="col3">
                 <div class="card-container">
                     <div class="plan-name">
-                        <p><i class="fa-solid fa-user"></i> Singolo</p>
+                        <p><i class="fa-solid fa-users"></i> Advanced</p>
                     </div>
                     <div class="plan-container">
-                        <div>
-                            <h3>Professional</h3>
-                        </div>
-                        <div class="price">
-                            <p>€ 12,00</p>
-                        </div>
-                        <div class="duration grey">
-                            <p>/mese</p>
-                        </div>
-                        <div class="n-user">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1 utente</p>
-                        </div>
-                        <div class="n-space">
-                            <i class="fa-solid fa-folder"></i>
-                            <p>5 Tb di spazio di archiviazione sicuro</p>
-                        </div>
-                            <div class="premium">
-                            <i class="fa-solid fa-share-nodes"></i>
-                            <p>4 Funzioni di produttività premium e condivizione file semplice e sicura</p>
+                        <div class="plan-first-part">
+                            <div>
+                                <h3>Professional</h3>
+                            </div>
+
+                            <div class="price">
+                                <p>€ 12,00</p>
+                            </div>
+                            <div class="duration grey">
+                                <p>/utente/mese</p>
+                            </div>
+                            <div class="n-user">
+                                <i class="fa-solid fa-users"></i>
+                                <p>3 o più utenti</p>
+                            </div>
+                            <div class="n-space">
+                                <i class="fa-solid fa-folder"></i>
+                                <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
+                            </div>
+                                <div class="premium">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p>Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</p>
+                            </div>
                         </div>
 
                         <div class="card-middle">
@@ -153,11 +158,23 @@
                         <ul>
                             <li class="list-item">
                                 <i class="fa-solid fa-check"></i>
-                                <p>Invia file fino a 100 GB con Dropbox Transfert</p>
+                                <p>Nessun limite di psazio per i file</p>
                             </li>
                             <li class="list-item">
                                 <i class="fa-solid fa-check"></i>
                                 <p>Cartelle offline su dispositivi mobili</p>
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Risparmio 50% rispetto alle iscrizioni singole</p>
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Possibilità di inserire nuovi membri nel team</p>
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Gestione permessi in base ai ruoli</p>
                             </li>
                         </ul>
                     </div>
@@ -169,33 +186,35 @@
             <div class="col3">
                 <div class="card-container">
                     <div class="plan-name">
-                        <p><i class="fa-solid fa-user"></i> Singolo</p>
+                        <p><i class="fa-solid fa-building"></i>Azienda</p>
                     </div>
                     <div class="plan-container">
-                        <div>
-                            <h3>Professional</h3>
-                        </div>
-                        <div class="price">
-                            <p>€ 12,00</p>
-                        </div>
-                        <div class="duration grey">
-                            <p>/mese</p>
-                        </div>
-                        <div class="n-user">
-                            <i class="fa-solid fa-user"></i>
-                            <p>1 utente</p>
-                        </div>
-                        <div class="n-space">
-                            <i class="fa-solid fa-folder"></i>
-                            <p>5 Tb di spazio di archiviazione sicuro</p>
-                        </div>
-                            <div class="premium">
-                            <i class="fa-solid fa-share-nodes"></i>
-                            <p>4 Funzioni di produttività premium e condivizione file semplice e sicura</p>
+                        <div class="plan-first-part">
+                            <div>
+                                <h3>Enteprise</h3>
+                            </div>
+                            <div class="price">
+                                <p>Contattaci</p>
+                            </div>
+                            <div class="duration grey">
+                                <p>-</p>
+                            </div>
+                            <div class="n-user">
+                                <i class="fa-solid fa-user"></i>
+                                <p>10 o più utenti</p>
+                            </div>
+                            <div class="n-space">
+                                <i class="fa-solid fa-folder"></i>
+                                <p>Soluzioni personalizzabili per la tua azienda</p>
+                            </div>
+                                <div class="premium">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p>Assistenza personalizzata per aiutare gli amministratori in un gestione su larga scala</p>
+                            </div>
                         </div>
 
                         <div class="card-middle">
-                            <a href="#" class="buttomnlookalike">Prova gratis per 30 giorni</a>
+                            <a href="#" class="buttomnlookalike">Contattaci</a>
                         </div>
                         <div class="buy-now">
                             <p>oppure <a href="#" class="decorated-a"> acquista ora</a></p>
@@ -207,11 +226,15 @@
                         <ul>
                             <li class="list-item">
                                 <i class="fa-solid fa-check"></i>
-                                <p>Invia file fino a 100 GB con Dropbox Transfert</p>
+                                <p>Cartelle offline su dispositivi mobili</p>
                             </li>
                             <li class="list-item">
                                 <i class="fa-solid fa-check"></i>
-                                <p>Cartelle offline su dispositivi mobili</p>
+                                <p>Servizio clienti disponibile 24/h</p>
+                            </li>
+                            <li class="list-item">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Possibilità di personalizzazione totale</p>
                             </li>
                         </ul>
                     </div>
@@ -319,7 +342,7 @@
 
     <!-- 8 card section -->
     <section id="designit">
-        <div class="new-row">
+        <div class="designit-container">
             <div class="column">
                 <div class="img-1">
                     <img src="img/designit.svg" alt="">

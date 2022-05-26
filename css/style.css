@@ -25,17 +25,38 @@ i {
     margin-right: 10px;
 }
 
+h4 {
+    margin: 30px 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
 img{
     max-width: 100%;
 }
 
-/* Utily */
+cite {
+    font-style: normal;
+    margin: 30px 0;
+}
+
+label {
+    margin-right: 35px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+/* Utilities */
 
 .margin {
     margin-top: 10px;
 }
 
-.buttonlookalike {
+.button-look-alike {
     background-color: rgb(0, 97, 255);
     padding: 7px 15px;
     color: white;
@@ -78,19 +99,16 @@ header img {
     justify-content: space-between;
 }
 
- header li{
-    margin: 5px 15px;
-    min-height: 20px;
+header li{
+  margin: 5px 15px;
+  min-height: 20px;
 }
-
-/* Bonus */
-
-.flex-container #why-drop:hover , 
-.flex-container #functions:hover,
-.flex-container #plans-price:hover,
-.flex-container #support:hover,
-.flex-container #contact:hover,
-.flex-container #signin:hover {
+    
+ /* Bonus */
+    
+#why-drop:hover , #functions:hover,
+#plans-price:hover, #support:hover,
+#contact:hover, #signin:hover {
     padding: 15px 0;
     border-bottom: 2px solid black ;
 }
@@ -162,20 +180,13 @@ span a {
     margin-bottom: 50px;
 }
 
-label {
-    margin-right: 35px;
-}
-
-input {
-    margin-right: 5px;
-}
 
 /* Plans flex*/
 
 .row {
     display: flex;
     width: 100%;
-    gap: 35px;
+    justify-content: space-between;
 }
 
 .col3 {
@@ -188,13 +199,10 @@ input {
     padding: 10px 0;
 }
 
-h3 {
-    font-size: 22px;
-}
 
 .card-container {
     border: 1px solid lightgrey;
-    min-height: 850px;
+    min-height: 860px;
     margin-bottom: 80px;
 }
 
@@ -239,9 +247,6 @@ h3 {
     background-color: lightgrey;
 }
 
-h4 {
-    margin: 30px 0;
-}
 
 .fa-check {
     color: rgb(0, 97, 255);
@@ -364,7 +369,7 @@ h4 {
     width: calc( 100% / 6 );
 }
 
-.img-1 {
+.logo-container-1 {
     width: 100%;
     height: 225px;
     background-color: rgb(162, 211, 155);
@@ -373,13 +378,13 @@ h4 {
     align-items: center;
 }
 
-.img-1 img {
+.logo-container-1 img {
     height: 55px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
-.img-2 {
+.logo-container-2 {
     width: 100%;
     height: 225px;
     background-color: rgb(0, 147, 206);
@@ -388,14 +393,14 @@ h4 {
     align-items: center;
 }
 
-.img-2 img {
+.logo-container-2 img {
     height: 35px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
 
-.img-3 {
+.logo-container-3 {
     width: 100%;
     height: 225px;
     background-color: rgb(97, 8, 43);
@@ -404,13 +409,13 @@ h4 {
     align-items: center;
 }
 
-.img-3 img {
+.logo-container-3 img {
     height: 75px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
-.img-4 {
+.logo-container-4 {
     width: 100%;
     height: 225px;
     background-color: rgb(255, 28, 28);
@@ -419,14 +424,14 @@ h4 {
     align-items: center;
 }
 
-.img-4 img {
+.logo-container-4 img {
     height: 55px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
 
-.img-5 {
+.logo-container-5 {
     width: 100%;
     height: 225px;
     background-color: rgb(213, 0, 31);
@@ -435,13 +440,13 @@ h4 {
     align-items: center;
 }
 
-.img-5 img {
+.logo-container-5 img {
     height: 50px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
-.img-6 {
+.logo-container-6 {
     width: 100%;
     height: 225px;
     background-color: rgb(13, 36, 129);
@@ -450,13 +455,13 @@ h4 {
     align-items: center;
 }
 
-.img-6 img {
+.logo-container-6 img {
     height: 55px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
-.img-7 {
+.logo-container-7 {
     width: 100%;
     height: 225px;
     background-color: rgb(180, 208, 231);
@@ -465,13 +470,13 @@ h4 {
     align-items: center;
 }
 
-.img-7 img {
+.logo-container-7 img {
     height: 17px;
     filter: invert(100%);
     padding: 0 30px;
 }
 
-.img-8 {
+.logo-container-8 {
     width: 100%;
     height: 225px;
     background-color: rgb(255, 216, 48);
@@ -480,7 +485,7 @@ h4 {
     align-items: center;
 }
 
-.img-8 img {
+.logo-container-8 img {
     height: 55px;
     filter: invert(100%);
     padding: 0 30px;
@@ -489,78 +494,78 @@ h4 {
 /* Bonus */
 
 
-.img-1:hover img{
+.logo-container-1:hover img{
     height: 45px;
 }
 
-.img-1:hover {
+.logo-container-1:hover {
     border: 10px solid red;
 }
 
 
-.img-2:hover img{
+.logo-container-2:hover img{
     height: 28px;
 }
 
-.img-2:hover {
+.logo-container-2:hover {
     border: 10px solid rgb(97, 8, 43);
 }
 
 
-.img-3:hover img{
+.logo-container-3:hover img{
     height: 56px;
 }
 
-.img-3:hover {
+.logo-container-3:hover {
     border: 10px solid rgb(0, 147, 206);
 }
 
 
-.img-4:hover img{
+.logo-container-4:hover img{
     height: 43px;
 }
 
-.img-4:hover {
+.logo-container-4:hover {
     border: 10px solid rgb(162, 211, 155);
 }
 
 
 
-.img-5:hover img{
+.logo-container-5:hover img{
     height: 42px;
 }
 
-.img-5:hover {
+.logo-container-5:hover {
     border: 10px solid rgb(255, 216, 48);
 }
 
 
 
-.img-6:hover img{
+.logo-container-6:hover img{
     height: 48px;
 }
 
-.img-6:hover {
+.logo-container-6:hover {
     border: 10px solid rgb(180, 208, 231);
 }
 
 
 
-.img-7:hover img{
+.logo-container-7:hover img{
     height: 13px;
 }
 
-.img-7:hover {
+.logo-container-7:hover {
     border: 10px solid rgb(13, 36, 129);
 }
 
 
 
-.img-8:hover img{
+.logo-container-8:hover img{
     height: 48px;
 }
 
-.img-8:hover {
+.logo-container-8:hover {
     border: 10px solid rgb(213, 0, 31);
 }
 
@@ -587,10 +592,6 @@ h4 {
     background-color: lightgrey;
 }
 
-cite {
-    font-style: normal;
-    margin: 30px 0;
-}
 
 
 /* Free trial */

@@ -190,7 +190,7 @@ span a {
 }
 
 .col3 {
-    width: calc( 100% / 3 - 35px );
+    width: calc( 100% / 3 - 30px );
 }
 
 .plan-name {
@@ -199,11 +199,11 @@ span a {
     padding: 10px 0;
 }
 
-
 .card-container {
     border: 1px solid lightgrey;
     min-height: 860px;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .duration {
@@ -258,8 +258,7 @@ span a {
     margin: 15px 0;
 }
 
-.card-middle > .buttonlookalike {
-    min-width: 120px;
+.card-middle > .button-look-alike {
     display:block;
     text-align: center;
 }
